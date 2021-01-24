@@ -3,7 +3,7 @@
 
 $body-bg: #ddd;
 $body-color: #222;
-$primary: hotpink;
+$primary: deeppink;
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -11,15 +11,50 @@ $font-family-base: Arial;
 
 // Add you custom CSS
 
+@include media-breakpoint-up(xl) {
+}
+
+.top-container-fluid {
+  margin: 1em 1em;
+  background-color: rgb(173, 232, 244);
+}
+
+.middle-container-fluid {
+  margin: 1em 1em;
+  background-color: rgb(173, 232, 244);
+}
+
+.bottom-container-fluid {
+  margin: 1em 1em;
+  background-color: rgb(173, 232, 244);
+}
+
+.footer-container-fluid {
+  margin: 1em 1em;
+  background-color: rgb(173, 232, 244);
+}
+
+.img-thumbnail {
+  padding: 1em;
+}
+
+.language-img {
+  padding-bottom: 1em;
+}
+
 .fancy {
   display: inline-block;
-  background: rgb(131, 58, 180);
+  background: rgba(131, 58, 180, 1);
   background: linear-gradient(
     90deg,
     rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
+    rgb(224, 19, 173) 50%,
     rgba(252, 176, 69, 1) 100%
   );
   color: #fff;
   padding: 0.5em;
+}
+
+.dropdown-menu {
+  background-color: rgb(202, 240, 248);
 }
